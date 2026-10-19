@@ -1,16 +1,67 @@
-# React + Vite
+# JavaScript Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+A simple and responsive calculator built using React, JavaScript, CSS, and Vite. It allows users to perform basic mathematical calculations through an interactive and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Perform addition, subtraction, multiplication, and division.
+- Enter numbers using calculator buttons.
+- Perform decimal calculations.
+- Clear calculations using the AC button.
+- Display calculation results.
+- Simple and responsive user interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+Calculator/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── index.html
+├── package.json
+└── README.md
+```
+
+## How to Use
+
+1. Enter numbers using the calculator buttons.
+2. Select a mathematical operator.
+3. Enter the next number.
+4. Press `=` to see the result.
+5. Press `AC` to clear the calculation.
+
+## Project Reference
+
+Inspired by the freeCodeCamp JavaScript Calculator challenge.
+
+https://javascript-calculator.freecodecamp.rocks/
+
+## Learning Objectives
+
+- Learn React components and JSX.
+- Practice JavaScript event handling.
+- Understand React state management.
+- Improve CSS styling skills.
+- Build an interactive web application.
+
+## Author
+
+Created as a learning project to practice React and JavaScript.
+
+## License
+
+This project is intended for educational purposes.
